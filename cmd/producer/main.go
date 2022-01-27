@@ -12,7 +12,7 @@ func main() {
 	deliveryChan := make(chan kafka.Event)
 	key := []byte("minhaKey")
 	producer := NewKafkaProducer()
-	Publish("mensagem async ", "teste", producer, key, deliveryChan)
+	Publish("Nova mensagem async ", "teste", producer, key, deliveryChan)
 	go DeliveryReport(deliveryChan)
 	producer.Flush(1000)
 

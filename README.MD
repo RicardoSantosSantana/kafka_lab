@@ -37,7 +37,7 @@ __Git Lib Kafka__
 
 __extra_hosts - "host.docker.internal:172.17.0.1"__
 
-    Permite comunicação de qualquer conrtainer na rede docker
+    Permite comunicação de qualquer container na rede docker
     é necessário que o /etc/hosts tenha uma linha configurado da seguinte forma
     127.0.0.1 docker.host.internal
 
@@ -49,7 +49,7 @@ __Iniciando modulo Go dentro do container go__
 
 __Lembrete 01__
 	O parametro "bootstrap.servers": deve ser preenchido com o nome do container que estiver rodando o kafka
-    
+
     configMap := &kafka.ConfigMap{
 		"bootstrap.servers": "kafka_kafka_1:9092",
 	}
