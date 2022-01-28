@@ -9,4 +9,4 @@ https://docs.confluent.io/platform/current/connect/index.html
 https://www.confluent.io/hub/
 https://debezium.io/
 
-
+https://www.confluent.io/confluent-cloud/tryfree/
