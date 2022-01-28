@@ -18,7 +18,7 @@ __Listar Topics__
 > kafka-topics --list --bootstrap-server=localhost:9092
 
 __Describe Topics__
-> kafka-topics -topic=teste --bootstrap-server=localhost:9092
+> kafka-topics --describe --topic=teste --bootstrap-server=localhost:9092
 
 __Consumir topicos__
 > kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste --from-beginning  
